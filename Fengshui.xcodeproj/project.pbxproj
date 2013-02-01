@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FengshuiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FengshuiAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* FengshuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FengshuiViewController.m */; };
+		E659B0B11483C69B003C7207 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E659B0B01483C69B003C7207 /* SecondViewController.m */; };
+		E659B0B31483C6B7003C7207 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E659B0B21483C6B7003C7207 /* CoreLocation.framework */; };
+		E659B0C01483C743003C7207 /* first_back.png in Resources */ = {isa = PBXBuildFile; fileRef = E659B0BA1483C743003C7207 /* first_back.png */; };
+		E659B0C11483C743003C7207 /* first_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E659B0BB1483C743003C7207 /* first_button.png */; };
+		E659B0C31483C743003C7207 /* second_back.png in Resources */ = {isa = PBXBuildFile; fileRef = E659B0BD1483C743003C7207 /* second_back.png */; };
+		E659B0C41483C743003C7207 /* second_finish.png in Resources */ = {isa = PBXBuildFile; fileRef = E659B0BE1483C743003C7207 /* second_finish.png */; };
+		E659B0C51483C743003C7207 /* second_zhen.png in Resources */ = {isa = PBXBuildFile; fileRef = E659B0BF1483C743003C7207 /* second_zhen.png */; };
+		E659B0DE1483C7CD003C7207 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E659B0D51483C7CD003C7207 /* NSObject+SBJSON.m */; };
+		E659B0DF1483C7CD003C7207 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E659B0D71483C7CD003C7207 /* NSString+SBJSON.m */; };
+		E659B0E01483C7CD003C7207 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E659B0D91483C7CD003C7207 /* SBJsonBase.m */; };
+		E659B0E11483C7CD003C7207 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E659B0DB1483C7CD003C7207 /* SBJsonParser.m */; };
+		E659B0E21483C7CD003C7207 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E659B0DD1483C7CD003C7207 /* SBJsonWriter.m */; };
+		E6840914148712ED0052F570 /* CustomPickerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E6840911148712ED0052F570 /* CustomPickerDataSource.m */; };
+		E6840915148712ED0052F570 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6840913148712ED0052F570 /* CustomView.m */; };
+		E6FD1C7614877EBB00290348 /* FengshuiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FD1C7514877EBB00290348 /* FengshuiViewController.xib */; };
+		E6FD1CE814878A2500290348 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FD1CE714878A2500290348 /* SecondViewController.xib */; };
+		E6FD1D761487953C00290348 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FD1D751487953C00290348 /* ThirdViewController.m */; };
+		E6FD1FBC1487B6FA00290348 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FD1FBB1487B6FA00290348 /* ThirdViewController.xib */; };
+		E6FD1FCA1487B9F300290348 /* third_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FD1FC61487B9F300290348 /* third_button.png */; };
+		E6FD1FCB1487B9F300290348 /* third_back.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FD1FC71487B9F300290348 /* third_back.png */; };
+		E6FD1FCC1487B9F300290348 /* third_star.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FD1FC81487B9F300290348 /* third_star.png */; };
+		FF0AD57314A0BFB2007494A0 /* first_center.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0AD57114A0BFB2007494A0 /* first_center.png */; };
+		FF0AD57414A0BFB2007494A0 /* second_center.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0AD57214A0BFB2007494A0 /* second_center.png */; };
+		FF425E2214C1AFAD00FBA5B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF425E2014C1AFAD00FBA5B4 /* WebViewController.m */; };
+		FF425E2314C1AFAD00FBA5B4 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF425E2114C1AFAD00FBA5B4 /* WebViewController.xib */; };
+		FF4B7F9214B3EE3400C03B5B /* third_button1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4B7F8F14B3EE3300C03B5B /* third_button1.png */; };
+		FF4B7F9314B3EE3400C03B5B /* third_button2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4B7F9014B3EE3300C03B5B /* third_button2.png */; };
+		FF4B7F9414B3EE3400C03B5B /* third_button3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4B7F9114B3EE3400C03B5B /* third_button3.png */; };
+		FF6DFF0714B3F4A700B488A3 /* first_button1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFF0414B3F4A700B488A3 /* first_button1.png */; };
+		FF6DFF0814B3F4A700B488A3 /* first_button2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFF0514B3F4A700B488A3 /* first_button2.png */; };
+		FF6DFF0914B3F4A700B488A3 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFF0614B3F4A700B488A3 /* second.png */; };
+		FF6DFF0E14B401D700B488A3 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6DFF0C14B401D700B488A3 /* HelpViewController.m */; };
+		FF6DFF0F14B401D700B488A3 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFF0D14B401D700B488A3 /* HelpViewController.xib */; };
+		FF6DFF1114B4022300B488A3 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFF1014B4022300B488A3 /* help.png */; };
+		FF712B6D1496D720004065CB /* DirectChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = FF712B6B1496D71F004065CB /* DirectChoose.m */; };
+		FF712B6E1496D720004065CB /* DirectChoose.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF712B6C1496D720004065CB /* DirectChoose.xib */; };
+		FF712B771496DDBC004065CB /* BirthYear.m in Sources */ = {isa = PBXBuildFile; fileRef = FF712B751496DDBC004065CB /* BirthYear.m */; };
+		FF712B781496DDBC004065CB /* BirthYear.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF712B761496DDBC004065CB /* BirthYear.xib */; };
+		FF8009CA14B83C55003C9A8F /* second_return.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8009C714B83C55003C9A8F /* second_return.png */; };
+		FF8009D114B83F4D003C9A8F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8009CC14B83F4D003C9A8F /* Icon-72.png */; };
+		FF8009D214B83F4D003C9A8F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8009CD14B83F4D003C9A8F /* Icon-Small-50.png */; };
+		FF8009D314B83F4D003C9A8F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8009CE14B83F4D003C9A8F /* Icon-Small.png */; };
+		FF8009D414B83F4D003C9A8F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8009CF14B83F4D003C9A8F /* Icon-Small@2x.png */; };
+		FF8009D514B83F4D003C9A8F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8009D014B83F4D003C9A8F /* Icon.png */; };
+		FFBEFEE214A0C5710097FA5B /* PositionChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBEFEE014A0C5710097FA5B /* PositionChoose.m */; };
+		FFBEFEE314A0C5710097FA5B /* PositionChoose.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBEFEE114A0C5710097FA5B /* PositionChoose.xib */; };
+		FFEA7F9F14D7F84300A323C8 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFEA7F9E14D7F84300A323C8 /* MainWindow-iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FengshuiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FengshuiAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FengshuiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FengshuiAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* fengshuibujudashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fengshuibujudashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* FengshuiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FengshuiViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* FengshuiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FengshuiViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Fengshui_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fengshui_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Fengshui-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fengshui-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E659B0AF1483C69B003C7207 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E659B0B01483C69B003C7207 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E659B0B21483C6B7003C7207 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E659B0BA1483C743003C7207 /* first_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_back.png; sourceTree = "<group>"; };
+		E659B0BB1483C743003C7207 /* first_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_button.png; sourceTree = "<group>"; };
+		E659B0BD1483C743003C7207 /* second_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_back.png; sourceTree = "<group>"; };
+		E659B0BE1483C743003C7207 /* second_finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_finish.png; sourceTree = "<group>"; };
+		E659B0BF1483C743003C7207 /* second_zhen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_zhen.png; sourceTree = "<group>"; };
+		E659B0D31483C7CD003C7207 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		E659B0D41483C7CD003C7207 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		E659B0D51483C7CD003C7207 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		E659B0D61483C7CD003C7207 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		E659B0D71483C7CD003C7207 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		E659B0D81483C7CD003C7207 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		E659B0D91483C7CD003C7207 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		E659B0DA1483C7CD003C7207 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		E659B0DB1483C7CD003C7207 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		E659B0DC1483C7CD003C7207 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		E659B0DD1483C7CD003C7207 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		E6840910148712ED0052F570 /* CustomPickerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerDataSource.h; sourceTree = "<group>"; };
+		E6840911148712ED0052F570 /* CustomPickerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerDataSource.m; sourceTree = "<group>"; };
+		E6840912148712ED0052F570 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		E6840913148712ED0052F570 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		E6FD1C7514877EBB00290348 /* FengshuiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FengshuiViewController.xib; path = ../Classes/FengshuiViewController.xib; sourceTree = "<group>"; };
+		E6FD1CE714878A2500290348 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SecondViewController.xib; path = ../Classes/SecondViewController.xib; sourceTree = "<group>"; };
+		E6FD1D741487953C00290348 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E6FD1D751487953C00290348 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E6FD1FBB1487B6FA00290348 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ThirdViewController.xib; path = ../Classes/ThirdViewController.xib; sourceTree = "<group>"; };
+		E6FD1FC61487B9F300290348 /* third_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = third_button.png; path = ../third_button.png; sourceTree = "<group>"; };
+		E6FD1FC71487B9F300290348 /* third_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = third_back.png; path = ../third_back.png; sourceTree = "<group>"; };
+		E6FD1FC81487B9F300290348 /* third_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = third_star.png; path = ../third_star.png; sourceTree = "<group>"; };
+		FF0AD57114A0BFB2007494A0 /* first_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first_center.png; path = ../first_center.png; sourceTree = "<group>"; };
+		FF0AD57214A0BFB2007494A0 /* second_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second_center.png; path = ../second_center.png; sourceTree = "<group>"; };
+		FF425E1F14C1AFAD00FBA5B4 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FF425E2014C1AFAD00FBA5B4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		FF425E2114C1AFAD00FBA5B4 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewController.xib; path = ../Classes/WebViewController.xib; sourceTree = "<group>"; };
+		FF429BCF14C26AE80083142E /* BirthYear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirthYear.h; sourceTree = "<group>"; };
+		FF429BD014C26AE80083142E /* BirthYear.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthYear.m; sourceTree = "<group>"; };
+		FF429BD114C26AE80083142E /* BirthYear.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BirthYear.xib; sourceTree = "<group>"; };
+		FF429BD214C26AE80083142E /* CustomPickerDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPickerDataSource.h; sourceTree = "<group>"; };
+		FF429BD314C26AE80083142E /* CustomPickerDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPickerDataSource.m; sourceTree = "<group>"; };
+		FF429BD414C26AE80083142E /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		FF429BD514C26AE80083142E /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		FF429BD614C26AE80083142E /* DirectChoose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectChoose.h; sourceTree = "<group>"; };
+		FF429BD714C26AE80083142E /* DirectChoose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectChoose.m; sourceTree = "<group>"; };
+		FF429BD814C26AE80083142E /* DirectChoose.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DirectChoose.xib; sourceTree = "<group>"; };
+		FF429BD914C26AE80083142E /* FengshuiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FengshuiAppDelegate.h; sourceTree = "<group>"; };
+		FF429BDA14C26AE80083142E /* FengshuiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengshuiAppDelegate.m; sourceTree = "<group>"; };
+		FF429BDB14C26AE80083142E /* FengshuiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FengshuiViewController.h; sourceTree = "<group>"; };
+		FF429BDC14C26AE80083142E /* FengshuiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengshuiViewController.m; sourceTree = "<group>"; };
+		FF429BDD14C26AE80083142E /* FengshuiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FengshuiViewController.xib; sourceTree = "<group>"; };
+		FF429BDE14C26AE80083142E /* HelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		FF429BDF14C26AE80083142E /* HelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		FF429BE014C26AE80083142E /* HelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		FF429BE214C26AE80083142E /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FF429BE314C26AE80083142E /* NSObject+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FF429BE414C26AE80083142E /* NSObject+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FF429BE514C26AE80083142E /* NSString+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FF429BE614C26AE80083142E /* NSString+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FF429BE714C26AE80083142E /* SBJsonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FF429BE814C26AE80083142E /* SBJsonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FF429BE914C26AE80083142E /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FF429BEA14C26AE80083142E /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FF429BEB14C26AE80083142E /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FF429BEC14C26AE80083142E /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FF429BED14C26AE80083142E /* PositionChoose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PositionChoose.h; sourceTree = "<group>"; };
+		FF429BEE14C26AE80083142E /* PositionChoose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PositionChoose.m; sourceTree = "<group>"; };
+		FF429BEF14C26AE80083142E /* PositionChoose.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PositionChoose.xib; sourceTree = "<group>"; };
+		FF429BF014C26AE80083142E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FF429BF114C26AE80083142E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FF429BF214C26AE80083142E /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		FF429BF314C26AE80083142E /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FF429BF414C26AE80083142E /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		FF429BF514C26AE80083142E /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		FF429BF614C26AE80083142E /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FF429BF714C26AE80083142E /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		FF429BF814C26AE80083142E /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		FF429BF914C26AE80083142E /* Fengshui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fengshui-Info.plist"; sourceTree = "<group>"; };
+		FF429BFA14C26AE80083142E /* Fengshui.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Fengshui.xcodeproj; sourceTree = "<group>"; };
+		FF429BFD14C26AE80083142E /* Fengshui_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fengshui_Prefix.pch; sourceTree = "<group>"; };
+		FF429BFE14C26AE80083142E /* FengshuiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FengshuiViewController.xib; sourceTree = "<group>"; };
+		FF429BFF14C26AE80083142E /* first_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_center.png; sourceTree = "<group>"; };
+		FF429C0014C26AE80083142E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF429C0114C26AE80083142E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		FF429C0314C26AE80083142E /* first_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_back.png; sourceTree = "<group>"; };
+		FF429C0414C26AE80083142E /* first_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_button.png; sourceTree = "<group>"; };
+		FF429C0514C26AE80083142E /* first_button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_button1.png; sourceTree = "<group>"; };
+		FF429C0614C26AE80083142E /* first_button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_button2.png; sourceTree = "<group>"; };
+		FF429C0714C26AE80083142E /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		FF429C0814C26AE80083142E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FF429C0914C26AE80083142E /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		FF429C0A14C26AE80083142E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		FF429C0B14C26AE80083142E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		FF429C0C14C26AE80083142E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FF429C0D14C26AE80083142E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		FF429C0E14C26AE80083142E /* second_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_back.png; sourceTree = "<group>"; };
+		FF429C0F14C26AE80083142E /* second_finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_finish.png; sourceTree = "<group>"; };
+		FF429C1014C26AE80083142E /* second_return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_return.png; sourceTree = "<group>"; };
+		FF429C1114C26AE80083142E /* second_zhen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_zhen.png; sourceTree = "<group>"; };
+		FF429C1214C26AE80083142E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		FF429C1314C26AE80083142E /* third_button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_button1.png; sourceTree = "<group>"; };
+		FF429C1414C26AE80083142E /* third_button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_button2.png; sourceTree = "<group>"; };
+		FF429C1514C26AE80083142E /* third_button3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_button3.png; sourceTree = "<group>"; };
+		FF429C1614C26AE80083142E /* second_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_center.png; sourceTree = "<group>"; };
+		FF429C1714C26AE80083142E /* third_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_back.png; sourceTree = "<group>"; };
+		FF429C1814C26AE80083142E /* third_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_button.png; sourceTree = "<group>"; };
+		FF429C1914C26AE80083142E /* third_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_star.png; sourceTree = "<group>"; };
+		FF4B7F8F14B3EE3300C03B5B /* third_button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_button1.png; sourceTree = "<group>"; };
+		FF4B7F9014B3EE3300C03B5B /* third_button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_button2.png; sourceTree = "<group>"; };
+		FF4B7F9114B3EE3400C03B5B /* third_button3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third_button3.png; sourceTree = "<group>"; };
+		FF6DFF0414B3F4A700B488A3 /* first_button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_button1.png; sourceTree = "<group>"; };
+		FF6DFF0514B3F4A700B488A3 /* first_button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_button2.png; sourceTree = "<group>"; };
+		FF6DFF0614B3F4A700B488A3 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		FF6DFF0B14B401D700B488A3 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		FF6DFF0C14B401D700B488A3 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		FF6DFF0D14B401D700B488A3 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HelpViewController.xib; path = ../Classes/HelpViewController.xib; sourceTree = "<group>"; };
+		FF6DFF1014B4022300B488A3 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		FF712B6A1496D71F004065CB /* DirectChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectChoose.h; sourceTree = "<group>"; };
+		FF712B6B1496D71F004065CB /* DirectChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectChoose.m; sourceTree = "<group>"; };
+		FF712B6C1496D720004065CB /* DirectChoose.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectChoose.xib; sourceTree = "<group>"; };
+		FF712B741496DDBC004065CB /* BirthYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthYear.h; sourceTree = "<group>"; };
+		FF712B751496DDBC004065CB /* BirthYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthYear.m; sourceTree = "<group>"; };
+		FF712B761496DDBC004065CB /* BirthYear.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BirthYear.xib; sourceTree = "<group>"; };
+		FF75373D14D905BC000102D6 /* fengshuibujudashi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = fengshuibujudashi.entitlements; sourceTree = "<group>"; };
+		FF8009C714B83C55003C9A8F /* second_return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second_return.png; sourceTree = "<group>"; };
+		FF8009CC14B83F4D003C9A8F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FF8009CD14B83F4D003C9A8F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		FF8009CE14B83F4D003C9A8F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		FF8009CF14B83F4D003C9A8F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		FF8009D014B83F4D003C9A8F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FFBEFEDF14A0C5710097FA5B /* PositionChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionChoose.h; sourceTree = "<group>"; };
+		FFBEFEE014A0C5710097FA5B /* PositionChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionChoose.m; sourceTree = "<group>"; };
+		FFBEFEE114A0C5710097FA5B /* PositionChoose.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PositionChoose.xib; sourceTree = "<group>"; };
+		FFEA7F9E14D7F84300A323C8 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				E659B0B31483C6B7003C7207 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* FengshuiViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* FengshuiViewController.m */,
+				E659B0AF1483C69B003C7207 /* SecondViewController.h */,
+				E659B0B01483C69B003C7207 /* SecondViewController.m */,
+				E6FD1D741487953C00290348 /* ThirdViewController.h */,
+				E6FD1D751487953C00290348 /* ThirdViewController.m */,
+				FF6DFF0B14B401D700B488A3 /* HelpViewController.h */,
+				FF6DFF0C14B401D700B488A3 /* HelpViewController.m */,
+				FF425E1F14C1AFAD00FBA5B4 /* WebViewController.h */,
+				FF425E2014C1AFAD00FBA5B4 /* WebViewController.m */,
+				E6840910148712ED0052F570 /* CustomPickerDataSource.h */,
+				E6840911148712ED0052F570 /* CustomPickerDataSource.m */,
+				E6840912148712ED0052F570 /* CustomView.h */,
+				E6840913148712ED0052F570 /* CustomView.m */,
+				FF712B741496DDBC004065CB /* BirthYear.h */,
+				FF712B751496DDBC004065CB /* BirthYear.m */,
+				FF712B761496DDBC004065CB /* BirthYear.xib */,
+				FF712B6A1496D71F004065CB /* DirectChoose.h */,
+				FF712B6B1496D71F004065CB /* DirectChoose.m */,
+				FF712B6C1496D720004065CB /* DirectChoose.xib */,
+				FFBEFEDF14A0C5710097FA5B /* PositionChoose.h */,
+				FFBEFEE014A0C5710097FA5B /* PositionChoose.m */,
+				FFBEFEE114A0C5710097FA5B /* PositionChoose.xib */,
+				E659B0D21483C7CD003C7207 /* json */,
+				1D3623240D0F684500981E51 /* FengshuiAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FengshuiAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* fengshuibujudashi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				FF75373D14D905BC000102D6 /* fengshuibujudashi.entitlements */,
+				FF429BCD14C26AE80083142E /* Fengshui_final */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				FFEA7F9D14D7F83900A323C8 /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Fengshui_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E659B0B91483C743003C7207 /* resources */,
+				8D1107310486CEB800E47090 /* Fengshui-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E659B0B21483C6B7003C7207 /* CoreLocation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E659B0B91483C743003C7207 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF8009CC14B83F4D003C9A8F /* Icon-72.png */,
+				FF8009CD14B83F4D003C9A8F /* Icon-Small-50.png */,
+				FF8009CE14B83F4D003C9A8F /* Icon-Small.png */,
+				FF8009CF14B83F4D003C9A8F /* Icon-Small@2x.png */,
+				FF8009D014B83F4D003C9A8F /* Icon.png */,
+				FF8009C714B83C55003C9A8F /* second_return.png */,
+				FF6DFF0414B3F4A700B488A3 /* first_button1.png */,
+				FF6DFF0514B3F4A700B488A3 /* first_button2.png */,
+				FF6DFF0614B3F4A700B488A3 /* second.png */,
+				FF4B7F8F14B3EE3300C03B5B /* third_button1.png */,
+				FF4B7F9014B3EE3300C03B5B /* third_button2.png */,
+				FF4B7F9114B3EE3400C03B5B /* third_button3.png */,
+				FF0AD57214A0BFB2007494A0 /* second_center.png */,
+				FF0AD57114A0BFB2007494A0 /* first_center.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				E6FD1C7514877EBB00290348 /* FengshuiViewController.xib */,
+				E6FD1CE714878A2500290348 /* SecondViewController.xib */,
+				FF425E2114C1AFAD00FBA5B4 /* WebViewController.xib */,
+				FF6DFF1014B4022300B488A3 /* help.png */,
+				FF6DFF0D14B401D700B488A3 /* HelpViewController.xib */,
+				E6FD1FBB1487B6FA00290348 /* ThirdViewController.xib */,
+				E6FD1FC61487B9F300290348 /* third_button.png */,
+				E6FD1FC71487B9F300290348 /* third_back.png */,
+				E6FD1FC81487B9F300290348 /* third_star.png */,
+				E659B0BA1483C743003C7207 /* first_back.png */,
+				E659B0BB1483C743003C7207 /* first_button.png */,
+				E659B0BD1483C743003C7207 /* second_back.png */,
+				E659B0BE1483C743003C7207 /* second_finish.png */,
+				E659B0BF1483C743003C7207 /* second_zhen.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		E659B0D21483C7CD003C7207 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				E659B0D31483C7CD003C7207 /* JSON.h */,
+				E659B0D41483C7CD003C7207 /* NSObject+SBJSON.h */,
+				E659B0D51483C7CD003C7207 /* NSObject+SBJSON.m */,
+				E659B0D61483C7CD003C7207 /* NSString+SBJSON.h */,
+				E659B0D71483C7CD003C7207 /* NSString+SBJSON.m */,
+				E659B0D81483C7CD003C7207 /* SBJsonBase.h */,
+				E659B0D91483C7CD003C7207 /* SBJsonBase.m */,
+				E659B0DA1483C7CD003C7207 /* SBJsonParser.h */,
+				E659B0DB1483C7CD003C7207 /* SBJsonParser.m */,
+				E659B0DC1483C7CD003C7207 /* SBJsonWriter.h */,
+				E659B0DD1483C7CD003C7207 /* SBJsonWriter.m */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		FF429BCD14C26AE80083142E /* Fengshui_final */ = {
+			isa = PBXGroup;
+			children = (
+				FF429BCE14C26AE80083142E /* Classes */,
+				FF429BF914C26AE80083142E /* Fengshui-Info.plist */,
+				FF429BFA14C26AE80083142E /* Fengshui.xcodeproj */,
+				FF429BFD14C26AE80083142E /* Fengshui_Prefix.pch */,
+				FF429BFE14C26AE80083142E /* FengshuiViewController.xib */,
+				FF429BFF14C26AE80083142E /* first_center.png */,
+				FF429C0014C26AE80083142E /* main.m */,
+				FF429C0114C26AE80083142E /* MainWindow.xib */,
+				FF429C0214C26AE80083142E /* resources */,
+				FF429C1614C26AE80083142E /* second_center.png */,
+				FF429C1714C26AE80083142E /* third_back.png */,
+				FF429C1814C26AE80083142E /* third_button.png */,
+				FF429C1914C26AE80083142E /* third_star.png */,
+			);
+			name = Fengshui_final;
+			sourceTree = "<group>";
+		};
+		FF429BCE14C26AE80083142E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF429BCF14C26AE80083142E /* BirthYear.h */,
+				FF429BD014C26AE80083142E /* BirthYear.m */,
+				FF429BD114C26AE80083142E /* BirthYear.xib */,
+				FF429BD214C26AE80083142E /* CustomPickerDataSource.h */,
+				FF429BD314C26AE80083142E /* CustomPickerDataSource.m */,
+				FF429BD414C26AE80083142E /* CustomView.h */,
+				FF429BD514C26AE80083142E /* CustomView.m */,
+				FF429BD614C26AE80083142E /* DirectChoose.h */,
+				FF429BD714C26AE80083142E /* DirectChoose.m */,
+				FF429BD814C26AE80083142E /* DirectChoose.xib */,
+				FF429BD914C26AE80083142E /* FengshuiAppDelegate.h */,
+				FF429BDA14C26AE80083142E /* FengshuiAppDelegate.m */,
+				FF429BDB14C26AE80083142E /* FengshuiViewController.h */,
+				FF429BDC14C26AE80083142E /* FengshuiViewController.m */,
+				FF429BDD14C26AE80083142E /* FengshuiViewController.xib */,
+				FF429BDE14C26AE80083142E /* HelpViewController.h */,
+				FF429BDF14C26AE80083142E /* HelpViewController.m */,
+				FF429BE014C26AE80083142E /* HelpViewController.xib */,
+				FF429BE114C26AE80083142E /* json */,
+				FF429BED14C26AE80083142E /* PositionChoose.h */,
+				FF429BEE14C26AE80083142E /* PositionChoose.m */,
+				FF429BEF14C26AE80083142E /* PositionChoose.xib */,
+				FF429BF014C26AE80083142E /* SecondViewController.h */,
+				FF429BF114C26AE80083142E /* SecondViewController.m */,
+				FF429BF214C26AE80083142E /* SecondViewController.xib */,
+				FF429BF314C26AE80083142E /* ThirdViewController.h */,
+				FF429BF414C26AE80083142E /* ThirdViewController.m */,
+				FF429BF514C26AE80083142E /* ThirdViewController.xib */,
+				FF429BF614C26AE80083142E /* WebViewController.h */,
+				FF429BF714C26AE80083142E /* WebViewController.m */,
+				FF429BF814C26AE80083142E /* WebViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF429BE114C26AE80083142E /* json */ = {
+			isa = PBXGroup;
+			children = (
+				FF429BE214C26AE80083142E /* JSON.h */,
+				FF429BE314C26AE80083142E /* NSObject+SBJSON.h */,
+				FF429BE414C26AE80083142E /* NSObject+SBJSON.m */,
+				FF429BE514C26AE80083142E /* NSString+SBJSON.h */,
+				FF429BE614C26AE80083142E /* NSString+SBJSON.m */,
+				FF429BE714C26AE80083142E /* SBJsonBase.h */,
+				FF429BE814C26AE80083142E /* SBJsonBase.m */,
+				FF429BE914C26AE80083142E /* SBJsonParser.h */,
+				FF429BEA14C26AE80083142E /* SBJsonParser.m */,
+				FF429BEB14C26AE80083142E /* SBJsonWriter.h */,
+				FF429BEC14C26AE80083142E /* SBJsonWriter.m */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		FF429BFB14C26AE80083142E /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF429C0214C26AE80083142E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF429C0314C26AE80083142E /* first_back.png */,
+				FF429C0414C26AE80083142E /* first_button.png */,
+				FF429C0514C26AE80083142E /* first_button1.png */,
+				FF429C0614C26AE80083142E /* first_button2.png */,
+				FF429C0714C26AE80083142E /* help.png */,
+				FF429C0814C26AE80083142E /* Icon-72.png */,
+				FF429C0914C26AE80083142E /* Icon-Small-50.png */,
+				FF429C0A14C26AE80083142E /* Icon-Small.png */,
+				FF429C0B14C26AE80083142E /* Icon-Small@2x.png */,
+				FF429C0C14C26AE80083142E /* Icon.png */,
+				FF429C0D14C26AE80083142E /* second.png */,
+				FF429C0E14C26AE80083142E /* second_back.png */,
+				FF429C0F14C26AE80083142E /* second_finish.png */,
+				FF429C1014C26AE80083142E /* second_return.png */,
+				FF429C1114C26AE80083142E /* second_zhen.png */,
+				FF429C1214C26AE80083142E /* star.png */,
+				FF429C1314C26AE80083142E /* third_button1.png */,
+				FF429C1414C26AE80083142E /* third_button2.png */,
+				FF429C1514C26AE80083142E /* third_button3.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FFEA7F9D14D7F83900A323C8 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				FFEA7F9E14D7F84300A323C8 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Fengshui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fengshui" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fengshui;
+			productName = Fengshui;
+			productReference = 1D6058910D05DD3D006BFB54 /* fengshuibujudashi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fengshui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF429BFB14C26AE80083142E /* Products */;
+					ProjectRef = FF429BFA14C26AE80083142E /* Fengshui.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Fengshui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				E659B0C01483C743003C7207 /* first_back.png in Resources */,
+				E659B0C11483C743003C7207 /* first_button.png in Resources */,
+				E659B0C31483C743003C7207 /* second_back.png in Resources */,
+				E659B0C41483C743003C7207 /* second_finish.png in Resources */,
+				E659B0C51483C743003C7207 /* second_zhen.png in Resources */,
+				E6FD1C7614877EBB00290348 /* FengshuiViewController.xib in Resources */,
+				E6FD1CE814878A2500290348 /* SecondViewController.xib in Resources */,
+				E6FD1FBC1487B6FA00290348 /* ThirdViewController.xib in Resources */,
+				E6FD1FCA1487B9F300290348 /* third_button.png in Resources */,
+				E6FD1FCB1487B9F300290348 /* third_back.png in Resources */,
+				E6FD1FCC1487B9F300290348 /* third_star.png in Resources */,
+				FF712B6E1496D720004065CB /* DirectChoose.xib in Resources */,
+				FF712B781496DDBC004065CB /* BirthYear.xib in Resources */,
+				FF0AD57314A0BFB2007494A0 /* first_center.png in Resources */,
+				FF0AD57414A0BFB2007494A0 /* second_center.png in Resources */,
+				FFBEFEE314A0C5710097FA5B /* PositionChoose.xib in Resources */,
+				FF4B7F9214B3EE3400C03B5B /* third_button1.png in Resources */,
+				FF4B7F9314B3EE3400C03B5B /* third_button2.png in Resources */,
+				FF4B7F9414B3EE3400C03B5B /* third_button3.png in Resources */,
+				FF6DFF0714B3F4A700B488A3 /* first_button1.png in Resources */,
+				FF6DFF0814B3F4A700B488A3 /* first_button2.png in Resources */,
+				FF6DFF0914B3F4A700B488A3 /* second.png in Resources */,
+				FF6DFF0F14B401D700B488A3 /* HelpViewController.xib in Resources */,
+				FF6DFF1114B4022300B488A3 /* help.png in Resources */,
+				FF8009CA14B83C55003C9A8F /* second_return.png in Resources */,
+				FF8009D114B83F4D003C9A8F /* Icon-72.png in Resources */,
+				FF8009D214B83F4D003C9A8F /* Icon-Small-50.png in Resources */,
+				FF8009D314B83F4D003C9A8F /* Icon-Small.png in Resources */,
+				FF8009D414B83F4D003C9A8F /* Icon-Small@2x.png in Resources */,
+				FF8009D514B83F4D003C9A8F /* Icon.png in Resources */,
+				FF425E2314C1AFAD00FBA5B4 /* WebViewController.xib in Resources */,
+				FFEA7F9F14D7F84300A323C8 /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FengshuiAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* FengshuiViewController.m in Sources */,
+				E659B0B11483C69B003C7207 /* SecondViewController.m in Sources */,
+				E659B0DE1483C7CD003C7207 /* NSObject+SBJSON.m in Sources */,
+				E659B0DF1483C7CD003C7207 /* NSString+SBJSON.m in Sources */,
+				E659B0E01483C7CD003C7207 /* SBJsonBase.m in Sources */,
+				E659B0E11483C7CD003C7207 /* SBJsonParser.m in Sources */,
+				E659B0E21483C7CD003C7207 /* SBJsonWriter.m in Sources */,
+				E6840914148712ED0052F570 /* CustomPickerDataSource.m in Sources */,
+				E6840915148712ED0052F570 /* CustomView.m in Sources */,
+				E6FD1D761487953C00290348 /* ThirdViewController.m in Sources */,
+				FF712B6D1496D720004065CB /* DirectChoose.m in Sources */,
+				FF712B771496DDBC004065CB /* BirthYear.m in Sources */,
+				FFBEFEE214A0C5710097FA5B /* PositionChoose.m in Sources */,
+				FF6DFF0E14B401D700B488A3 /* HelpViewController.m in Sources */,
+				FF425E2214C1AFAD00FBA5B4 /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CODE_SIGN_ENTITLEMENTS = fengshuibujudashi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZHU YUNSHENG";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: ZHU YUNSHENG";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fengshui_Prefix.pch;
+				INFOPLIST_FILE = "Fengshui-Info.plist";
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = fengshuibujudashi;
+				PROVISIONING_PROFILE = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				"PROVISIONING_PROFILE[sdk=*]" = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CODE_SIGN_ENTITLEMENTS = fengshuibujudashi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZHU YUNSHENG";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ZHU YUNSHENG";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fengshui_Prefix.pch;
+				INFOPLIST_FILE = "Fengshui-Info.plist";
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = fengshuibujudashi;
+				PROVISIONING_PROFILE = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZHU YUNSHENG";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: ZHU YUNSHENG";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				"PROVISIONING_PROFILE[sdk=*]" = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZHU YUNSHENG";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ZHU YUNSHENG";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FFEA7FA014D7FC8600A323C8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZHU YUNSHENG";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ZHU YUNSHENG";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		FFEA7FA114D7FC8600A323C8 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CODE_SIGN_ENTITLEMENTS = fengshuibujudashi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZHU YUNSHENG";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ZHU YUNSHENG";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fengshui_Prefix.pch;
+				INFOPLIST_FILE = "Fengshui-Info.plist";
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = fengshuibujudashi;
+				PROVISIONING_PROFILE = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C4C246DD-587A-44EA-8BBA-CB94E70BEDCA";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fengshui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				FFEA7FA114D7FC8600A323C8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fengshui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				FFEA7FA014D7FC8600A323C8 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
